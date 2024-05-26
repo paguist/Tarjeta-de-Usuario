@@ -1,0 +1,90 @@
+
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    width: 600px;
+    background:linear-gradient(to top, rgb(183, 225, 235) 75%, rgb(1, 65, 85) 50%);
+    margin: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    gap: 5px;  
+}
+.nombre{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    margin: 0px;
+    padding: 0;
+    
+}
+
+h1{
+    margin: 0; 
+}
+
+.foto-de-perfil{
+    height: 100px;
+    width: 100px;
+}
+
+.residencia{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    margin: 0;
+    padding: 0;   
+}
+
+.icono-de-ubicacion{
+    height: 15px;
+    width: 10px;
+    margin: 0;
+    padding: 0;
+}
+
+.residencia-1{
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.habilidades{
+    display: flex;
+   flex-direction: column;
+   margin: 0;
+   padding: 0;
+}
+
+.habilidades-1{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap:10px;
+}
+
+.habilidades-2{
+    margin: 0;
+    padding: 0;
+}
+
+.editar-perfil{
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    gap: 5px;
+}
+
+.icono-de-configuracion{
+    height: 12px;
+    width: 12px;
+}
+
+.editar-perfil-1{
+    color: blue;
+    text-decoration: underline;
+}
+
